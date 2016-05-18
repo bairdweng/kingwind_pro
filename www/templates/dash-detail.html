@@ -1,0 +1,40 @@
+<ion-view hide-tabs view-title="详情">
+  <ion-content>
+    <ion-list>
+      <ion-item class="item item-thumbnail-normal" ng-repeat="model in detailmodel track by $index"
+                type="item-text-wrap">
+        <img src="{{model.Img}}">
+        <h2>Pretty Hate Machine</h2>
+        <p>Nine Inch Nails</p>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
+
+
+<!--<ion-view view-title="通讯录" >-->
+<!--<ion-nav-buttons side="right">-->
+<!--<button class="button button-icon ion-compose"  ng-click = "login()">-->
+<!--</button>-->
+<!--</ion-nav-buttons>-->
+<!--<ion-content>-->
+<!--<ion-refresher pulling-text="下拉刷新" on-refresh="doRefresh()"></ion-refresher>-->
+<!--<ion-list>-->
+<!--&lt;!&ndash;&lt;!&ndash;解决刷新闪动的bug&ndash;&gt;        <ion-item class="item-remove-animate item-avatar item-icon-right" ng-repeat="chat in chats" type="item-text-wrap" href="#/tab/chats/{{chat.id}}">&ndash;&gt;-->
+
+<!--<ion-item  class= "item-remove-animate item-avatar item-icon-right" ng-repeat="contact in contacts track by $index" type="item-text-wrap" href = "#/tab/dash/dash-detail/{{contact.id}}">-->
+<!--<img ng-src="{{contact.face}}">-->
+<!--<h2> {{contact.firstName+' '+contact.lastName}}</h2>-->
+<!--<p1>{{'电话: '+contact.phone}}</p1>-->
+
+<!--<ion-option-button class="button-calm" ng-click="edit(contact)">-->
+<!--编辑-->
+<!--</ion-option-button>-->
+<!--<i class="icon ion-chevron-right icon-accessory"></i>-->
+<!--<ion-option-button class="button-assertive" ng-click="remove(contact)">-->
+<!--删除-->
+<!--</ion-option-button>-->
+<!--</ion-item>-->
+<!--</ion-list>-->
+<!--</ion-content>-->
+<!--</ion-view>-->
